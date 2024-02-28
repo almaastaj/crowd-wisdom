@@ -1,4 +1,10 @@
 import React from "react";
+import { useEffect, useState } from "react";
+import supabase from "../supabase/supabase.js";
+import Header from "../components/Header";
+import NewFactForm from "../components/NewFactForm";
+import CategoryFilter from "../components/CategoryFilter";
+import FactList from "../components/FactList.jsx";
 
 function Home() {
     const [showForm, setShowForm] = useState(false);

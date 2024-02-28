@@ -1,5 +1,6 @@
 import React from "react";
 import Facts from "./Facts";
+
 function FactList({ facts, setFacts }) {
     //Temporrary Variable
     if (facts.length === 0)

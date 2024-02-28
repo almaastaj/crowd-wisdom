@@ -1,11 +1,11 @@
 import React from "react";
-
+import Logo from "../assets/logo.png";
 function Header({ showForm, setShowForm }) {
-    const appTitle = "Today I Learned!";
+    const appTitle = "Crowd Wisdom";
     return (
         <header className="header">
             <div className="logo">
-                <img src="logo.png" alt="Today i learned logo" />
+                <img src={Logo} alt="Crowd Wisdom Logo" />
                 <h1>{appTitle}</h1>
             </div>
             <button

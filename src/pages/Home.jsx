@@ -5,12 +5,14 @@ import Header from "../components/Header";
 import NewFactForm from "../components/NewFactForm";
 import CategoryFilter from "../components/CategoryFilter";
 import FactList from "../components/FactList.jsx";
+import Loader from "../components/Loader";
 
 function Home() {
     const [showForm, setShowForm] = useState(false);
     const [facts, setFacts] = useState([]);
     const [isLoading, setIsLoading] = useState(false);
     const [currentCategory, setCurrentCategory] = useState("all");
+
     useEffect(
         function () {
             async function getFacts() {

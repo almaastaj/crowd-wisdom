@@ -63,21 +63,21 @@ function Facts({ factObj, setFacts }) {
                 <button
                     onClick={() => handleVote("votesInteresting")}
                     disabled={isUpdating}
-                    title="Votes Interesting"
+                    title="Interesting Fact"
                 >
                     👍 {factObj.votesInteresting}
                 </button>
                 <button
                     onClick={() => handleVote("votesMindblowing")}
                     disabled={isUpdating}
-                    title="Votes Mind Blowing"
+                    title="Mind Blowing Fact"
                 >
                     🤯 {factObj.votesMindblowing}
                 </button>
                 <button
                     onClick={() => handleVote("votesFalse")}
                     disabled={isUpdating}
-                    title="Votes False"
+                    title="False Fact"
                 >
                     ⛔️ {factObj.votesFalse}
                 </button>

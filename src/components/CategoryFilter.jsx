@@ -19,12 +19,13 @@ function CategoryFilter({ setCurrentCategory }) {
                     <button
                         className="btn btn-all-categories"
                         onClick={() => setCurrentCategory("all")}
+                        title="All"
                     >
                         All
                     </button>
                 </li>
                 {CATEGORIES.map((cat) => (
-                    <li key={cat.name} className="category">
+                    <li key={cat.name} className="category" title={cat.name}>
                         <button
                             className="btn btn-category"
                             style={{ backgroundColor: cat.color }}

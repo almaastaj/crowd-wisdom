@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/crowd-wisdom/static/css/main.b86836de.css",
+    "main.js": "/crowd-wisdom/static/js/main.04d184f0.js",
+    "static/js/952.644bee01.chunk.js": "/crowd-wisdom/static/js/952.644bee01.chunk.js",
+    "static/media/logo.png": "/crowd-wisdom/static/media/logo.4c4323a503cfb86135be.png",
+    "index.html": "/crowd-wisdom/index.html",
+    "main.b86836de.css.map": "/crowd-wisdom/static/css/main.b86836de.css.map",
+    "main.04d184f0.js.map": "/crowd-wisdom/static/js/main.04d184f0.js.map",
+    "952.644bee01.chunk.js.map": "/crowd-wisdom/static/js/952.644bee01.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b86836de.css",
+    "static/js/main.04d184f0.js"
+  ]
+}
